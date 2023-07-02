@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    todolist_project (1.0.1)
+    todolist_project_dchae (1.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -26,7 +26,7 @@ DEPENDENCIES
   minitest-reporters (~> 1.1)
   rake
   stamp (~> 0.6)
-  todolist_project!
+  todolist_project_dchae!
 
 RUBY VERSION
    ruby 3.1.0p0
