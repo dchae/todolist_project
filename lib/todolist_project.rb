@@ -49,6 +49,26 @@ end
 class TodoList
   attr_accessor :title
 
+  def help
+    puts <<~HELP
+    Instantiate a TodoList object to create a new list:
+    >> example_list = TodoList.new("Example List")
+
+    This TodoList object can take Todo objects:
+    >> example_todo = Todo.new("Clean room")
+    >> example_list << example_todo
+
+    We can also add due date to our Todos:
+    >> example_todo.due_date = Date.today
+
+    Let's print our example TodoList:
+    >> puts example_todolist
+
+    ---- Example List ----
+    [ ] Clean room (Due: Saturday July 1)
+    HELP
+  end
+
   def initialize(title)
     @title = title
     @todos = []
