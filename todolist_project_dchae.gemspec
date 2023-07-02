@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name = "todolist_project"
-  s.version = "1.0.1"
+  s.name = "todolist_project_dchae"
+  s.version = "1.0.0"
   s.summary = "Todo List Manager"
   s.description = "This is a simple todo list manager."
   s.authors = ['Daniel Chae']
