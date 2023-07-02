@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    todolist_project_dchae (1.0.1)
+    todolist_project_dchae (1.0.2)
 
 GEM
   remote: https://rubygems.org/
