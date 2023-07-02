@@ -49,7 +49,7 @@ end
 class TodoList
   attr_accessor :title
 
-  def help
+  def self.help
     puts <<~HELP
     Instantiate a TodoList object to create a new list:
     >> example_list = TodoList.new("Example List")
