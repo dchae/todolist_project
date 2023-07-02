@@ -1,2 +1,3 @@
-# todolist_project
-RB130 TodoList Project
+# todolist
+Launch School RB130 TodoList Project
+
